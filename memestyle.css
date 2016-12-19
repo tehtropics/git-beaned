@@ -66,4 +66,15 @@ function myFunction() {
     }
 }
 
+#monsterrat {
+    font-family: 'Monsterrat', sans-serif;
+}
+
+#quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#ubuntu {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
 /* End of NavBar */
