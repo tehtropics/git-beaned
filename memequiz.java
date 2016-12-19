@@ -17,7 +17,7 @@ public static void main (string[] args) {
  
  
  public static void test() {
-  systemout.println(kappa);
+  system.out.println(kappa);
  }//end test
 
  
