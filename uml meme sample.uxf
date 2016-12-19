@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>70</y>
+      <w>1640</w>
+      <h>1180</h>
+    </coordinates>
+    <panel_attributes>
+bg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>100</y>
+      <w>1520</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Search bar
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>200</y>
+      <w>980</w>
+      <h>960</h>
+    </coordinates>
+    <panel_attributes>Name of meme
+
+-
+
+        
+
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>250</y>
+      <w>870</w>
+      <h>850</h>
+    </coordinates>
+    <panel_attributes>
+layer=1
+
+Description
+
+
+[Intro]
+Robbie: "Are you, uh, a real villain?"
+Bobbie: "Well, uh, technically... nah."
+Robbie: "Have you ever caught a good guy, like, uh, like a real superhero?"
+Bobbie: "Nah."
+Robbie: "Have you ever tried a disguise?"
+Bobbie: "Nah, nah..."
+Robbie: "Alright! I can see that I will have to teach you how to be villains!
+
+[Hook]
+Hey!
+We are Number One
+Hey!
+We are Number One
+
+[Verse 1]
+Now listen closely
+Here's a little lesson in trickery
+This is going down in history
+If you wanna be a Villain Number One
+You have to chase a superhero on the run
+Just follow my moves, and sneak around
+Be careful not to make a sound
+(Shh)
+(No, don't touch that!)
+
+[Hook]
+We are Number One
+Hey!
+We are Number One
+We are Number One
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>190</y>
+      <w>390</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>Image of meme
+-
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>760</y>
+      <w>390</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>Suggested or related memes
+-
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>1170</y>
+      <w>1520</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>TBD
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1550</x>
+      <y>910</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1550</x>
+      <y>1020</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1550</x>
+      <y>800</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1450</x>
+      <y>300</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1340</x>
+      <y>910</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1340</x>
+      <y>1020</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1340</x>
+      <y>800</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>meme</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
