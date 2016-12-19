@@ -1,27 +1,24 @@
-class quiz {
- 
- //app promps user with a series of multi choice questions (4)
- //the app continues to keep track of users answers 
- //variables change value based on user choice and will fall in to predetermined paths based on input
- 
- 
- //the app prints out a meme based on user choices and a short explanation
- // tbt
- 
+package memequiz;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-public static void main (string[] args) {
- test();
-}//end main
-
- 
- 
- 
- public static void test() {
-  system.out.println(kappa);
- }//end test
-
- 
- 
- 
- 
+public class quizhome {
+	public static void main (String [] args) throws IOException {
+	 run();
+	}//end main
+	
+	 public static void run() throws IOException {
+		 questionone();
+	 }
+	 
+	 public static void questionone () {
+		 BufferedReader readRacer = new BufferedReader (new InputStreamReader (System.in));
+	     System.out.println("Q1: Do you like animals? (y/n)");
+	     String usernumber = null;
+	     usernumber = readRacer.readLine();
+	    
+	   
+		
+	 }//end question one
 }//end class
