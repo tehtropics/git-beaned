@@ -11,10 +11,6 @@
     #navcss {
       padding-right: 50px;
     }
-    #jumbotron {
-      background-image: url("https://www.gannett-cdn.com/-mm-/23dec1f678238ad8838ca41bbd351e7a13a6f66c/r=x803&c=1600x800/http/bcdownload.gannett.edgesuite.net/wiscrapid/41823025001/201705/603/41823025001_5446810361001_5446806799001-vs.jpg?pubId=41823025001");
-      background-color: none;
-    }
   </style>
   
 </head>
@@ -39,11 +35,30 @@
     </ul>
    </div>
 </nav>
-  
-  <div class="jumbotron">
-    <h1 class="display-3">Home Page</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac facilisis lectus, id bibendum enim. Nullam interdum, elit eget volutpat congue, tortor ligula posuere dui, sit amet consectetur lacus dui sed quam.</p>
+ 
+<!-- begin carousel -->
+<div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride:"carousel">
+<!-- carousel wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item-active">
+      <div class="slide1"></div>
+    </div>
+    <div class="item">
+      <div class="slide2"></div>
+    </div>
+    <div class="item">
+      <div class="slide3"></div>
+    </div>
   </div>
+<!-- inner carousel, text etc. -->
+  <div class="container carousel-overlay text-center">
+    <h1>Arrowhead eSports</h1>
+    <p class="lead">Arrowhead eSports is a gaming club at Arrowhead High School in Hartland, Wisconsin.</p>
+    <hr class="my-4">
+    <p>Click the link below to learn more about our club.</p>
+    <a href="#"><button type="button" class="btn btn-danger btn-lg">Learn More</button></a>
+  </div>
+</div>
   
 </body
 
