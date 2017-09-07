@@ -11,6 +11,51 @@
     #navcss {
       padding-right: 50px;
     }
+    
+    .slide1, .slide2, .slide3 {
+      min-height: 560px;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    .slide1 {
+      background-image: url("https://www.gannett-cdn.com/-mm-/23dec1f678238ad8838ca41bbd351e7a13a6f66c/r=x803&c=1600x800/http/bcdownload.gannett.edgesuite.net/wiscrapid/41823025001/201705/603/41823025001_5446810361001_5446806799001-vs.jpg?pubId=41823025001"); 
+    }
+    
+    .slide2 {
+      background-image: url("http://www.gannett-cdn.com/media/2017/05/24/WIGroup/Milwaukee/636312340495071124-MJS-esports-1-of-6-SPORT-SPORTS.jpg");
+    }
+    
+    .slide3 {
+      background-image: url("http://www.gannett-cdn.com/media/2017/05/24/WIGroup/Milwaukee/636312340578688196-MJS-esports-6-of-6-SPORT-SPORTS.jpg");
+    }
+    
+    .carousel.carousel-fade .item {
+      -webkit-transition: opacity 1s linear;
+      -moz-transition: opacity 1s linear;
+      -ms-transition: opacity 1s linear;
+      -o-transition: opacity 1s linear;
+      transition: opacity 1s linear;
+      opacity: .5;
+    }
+    
+    .carousel.carousel-fade .active.item {
+      opacity: 1;
+    }
+    
+    .carousel.carousel-fade .active.left, .carousel.carousel-fade .active.right {
+      left: 0;
+      z-index: 2;
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      bottom: 100px;
+      right: 0;
+      left: 0;
+    }
   </style>
   
 </head>
