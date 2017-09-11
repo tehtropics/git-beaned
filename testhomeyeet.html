@@ -2,73 +2,70 @@
 <html>
 
 <head>
-  <title>Test</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  
-  <style>
-    #navcss {
-      padding-right: 50px;
-    }
+	<title>Test</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-    .carousel-overlay {
-      position: absolute;
-      bottom: 100px;
-      right: 0;
-      left: 0;
-    }
-  </style>
-  
+	<style>
+		.nav-item {
+			padding-right: 20px;
+		}
+		
+		.jumbotron {
+			background-image: url("https://wallpaperscraft.com/image/ships_sea_light_rain_69192_1920x1080.jpg") no-repeat center center;
+			background-size: cover;
+		}
+	</style>
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DFDFDF">
+		<a class="navbar-brand">AHS</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupported">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active" id="navcss">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item" id="navcss">
-        <a class="nav-link" href="#">Teams</a>
-      </li>
-      <li class="nav-item" id="navcss">
-        <a class="nav-link" href="#">Test1</a>
-      </li>
-      <li class="nav-item" id="navcss">
-        <a class="nav-link" href="#">Test2</a>
-      </li>
-    </ul>
-   </div>
-</nav>
- 
-<!-- begin carousel -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="https://www.gannett-cdn.com/-mm-/23dec1f678238ad8838ca41bbd351e7a13a6f66c/r=x803&c=1600x800/http/bcdownload.gannett.edgesuite.net/wiscrapid/41823025001/201705/603/41823025001_5446810361001_5446806799001-vs.jpg?pubId=41823025001" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="http://www.gannett-cdn.com/media/2017/05/24/WIGroup/Milwaukee/636312340495071124-MJS-esports-1-of-6-SPORT-SPORTS.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="http://www.gannett-cdn.com/media/2017/05/24/WIGroup/Milwaukee/636312340578688196-MJS-esports-6-of-6-SPORT-SPORTS.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-  
-</body
+		<div class="container">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current>)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-3">AHS eSports</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra metus ac erat scelerisque laoreet.</p>
+			<hr class="my-4">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra metus ac erat scelerisque laoreet.</p>
+			<a class="btn btn-danger btn-lg" role="button">Learn More</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<h1>Quick Links</h1>
+		<a href="#"><p>Link1</p></a>
+		<a href="#"><p>Link2</p></a>
+		<a href="#"><p>Link3</p></a>
+	</div>
+
+</body>
 
 </html>
